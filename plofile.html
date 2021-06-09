@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <mata charset="utf-8">
+        <title>Saho's Portfolio</title>
+
+        <!--レスポンシブデザイン-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--フォント-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Libre+Baskerville&display=swap"
+            rel="stylesheet">
+
+        <!--Bootstrapcss-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="plofile.css">
+
+
+</head>
+<!--メタ情報ここまで-->
+
+<body>
+    <!--ヘッダー-->
+    <header>
+        <!--ナビゲーションバー-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        
+            <!--Topへ戻るリンク-->
+            <a href="#top" class="navbar-brand">S</a>
+
+            <!--ハンバーガーメニュー（576px以下のみ表示）-->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-bar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--メニュー項目-->
+            <div class="collapse navbar-collapse" id="nav-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#top" class="nav-link">Top</a></li>
+                    <li class="nav-item"><a href="#welcome" class="nav-link">Welcome</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Skills
+                        </a>
+                        <div class="dropdown-menu mt-0" id="dropdown-menu-skills">
+                            <a class="dropdown-item" href="#html-css">HTML/CSS</a>
+                            <a class="dropdown-item" href="#js">JavaScript/jQuery</a>
+                            <a class="dropdown-item" href="#vuejs">Vue.js</a>
+                            <a class="dropdown-item" href="#bootstrap">Bootstrap</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Works
+                        </a>
+                        <div class="dropdown-menu mt-0" id="dropdown-menu-works">
+                            <a class="dropdown-item" href="#saho-portfolio">Saho's Portfolio</a>
+                            <a class="dropdown-item" href="#kanto-weather">ファミリーのためのレジャー施設紹介</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!--ヘッダーここまで-->
+
+    <!--wrapperここから-->
+    <wrapper>
+        <!--Top-->
+        <div id="top" class="section">
+            <!--湖の写真-->
+                    <img src="images/lake.jpg">
+
+        </div>
+        <!--Topここまで-->
+        <!--Welcome-->
+        <div id="welcome" class="section">
+            <div class="container">
+                <h2>Welcome</h2>
+                <!--スマホは上下表示、PCは左右に表示-->
+
+                <div class="plofile-image">
+                    <img src="images/plofile-photo.jpg">
+                </div>
+
+                <div class="row">
+                    <div class="col s12 welcome-text">
+                        <p class="first-text"> こんにちは！フロントエンドエンジニアをしているSahoと申します。<br>
+                            このページでは、これまで培ってきた技術や作品についてまとめています。<br>
+                            どうぞご覧ください。</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--Welcomeここまで-->
+        <!--Skills-->
+        <div id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <p class="first-text">使用言語・フレームワークの紹介です。</p>
+
+                <div class="row">
+                    <div class="col-md-5" id="html-css">
+
+                        <h3>HTML/CSS</h3>
+                        <div class="skills-description">
+                            <div class="text-image">
+                                <i class="fab fa-html5 size"></i>
+                            </div>
+                            <div class="skills-text">
+                                <p>お客様のイメージに合ったサイトをコーディングします。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offset-md-2 col-md-5" id="js">
+
+                        <h3>JavaScript/jQuery</h3>
+                        <div class="skills-description">
+                            <div class="text-image">
+                                <i class="fab fa-js-square size"></i>
+                            </div>
+                            <div class="skills-text">
+                                <p>動きのあるリッチなサイトをつくります。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5" id="vuejs">
+
+                        <h3>Vue.js</h3>
+                        <div class="skills-description">
+                            <div class="text-image">
+                                <i class="fab fa-vuejs size"></i>
+                            </div>
+                            <div class="skills-text">
+                                <p>WebAPIと組み合わせて、より情報を分かりやすく伝えるサイトにします。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offset-md-2 col-md-5" id="bootstrap">
+
+                        <h3>Bootstrap</h3>
+                        <div class="skills-description">
+                            <div class="text-image">
+                                <i class="fab fa-bootstrap size"></i>
+                            </div>
+                            <div class="skills-text">
+                                <p>スマホでもPCでも見やすいサイトにします。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--Skillsここまで-->
+        <!--Works-->
+        <div id="works" class="section">
+            <div class="container">
+                <h2>Works</h2>
+                <p class="first-text">今まで制作したものを紹介します。<br>
+                今後はさらにデザインと機能に磨きをかけていきます。</p>
+
+                <div class="row">
+
+                    <div class="col-md-5" id="saho-portfolio">
+                        <h3>Saho's Portfolio</h3>
+                        <div class="title-image">
+                            <img src="images/lake.jpg">
+                        </div>
+                        <p>このサイトです。<br>
+                            jQueryを使って、動きのあるサイトにしています。<br>
+                        リリースまでの作成期間：24時間</p>
+                    </div>
+
+                    <div class="offset-md-2 col-md-5" id="kanto-weather">
+                        <h3>ファミリーのためのレジャー施設紹介</h3>
+                        <div class="title-image">
+                            <img src="images/kanto-map-portfolio.png">
+                        </div>
+                        <p>初のポートフォリオサイトです。<br>
+                            小さなお子さんがいるご家族向けに、関東地方の天気と屋外レジャー施設を紹介しています。<br><br>
+                            リリースまでの作成期間：21時間<br>
+                            デザイン改良:6時間</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Worksここまで-->
+
+        <!--Topへ戻るボタン-->
+        <div id="toTop">
+            <a href="#">
+        <div class="scroll-top" id="top-button">
+            
+                <p>Top</p>
+        </div>
+        </a>
+    
+        </div>
+
+    </wrapper>
+    <!--wrapperここまで-->
+    <!--フッターここから-->
+    <footer>
+        &copy;2021 Saho Watanabe
+
+    </footer>
+    <!--フッターここまで-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Font Awesome -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.0/js/all.js"></script>
+
+    <!--JavaScript-->
+    <script src="plofile.js"></script>
+
+</body>
+
+</html>
